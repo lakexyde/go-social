@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: San Francisco, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    background: linear-gradient(white, #D3D8E8) no-repeat;
+}
+*{
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+h1, h2, h3, h4, h5{
+    margin: 0;
+    padding: 0;
+}
+.lks-home-header{
+    width: 100%;
+    display: block;
+    padding: 10px auto;
+    background-color: #29487d;
+    color: white;
+    overflow: hidden;
+}
+.h-logo{
+    background: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+.form-head{
+    font-size: 1.9em;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.user-login{
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+}
+.user-login label{
+    display: block;
+    font-size: .8em;
+    margin-bottom: 10px;
+}
+.user-login div{
+    margin-right: 10px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 10px;
+}
+.user-login div input{
+    height: 20px;
+    display: block;
+}
+.user-login div .login-btn{
+    margin-right: 10px;
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 25px;
+    text-shadow: none;
+    white-space: nowrap;
+}
+.user-login div a{
+    font-size: 12px;
+    color: #9cb4d8;
+    display: block;
+    text-decoration: none;
+    margin-top: 5px;
+}
+/*Form style*/
+.user-reg{
+
+}
+.user-reg input{
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.user-reg #f-name, .user-reg #l-name{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+#email, .password{
+    width: 100%;
+}
+.user-reg input[placeholder]{
+    font-size: 18px;
+    padding: 8px 10px;
+}
+.f-radio{
+    margin: 10px 0px;
+}
+.f-radio input{
+    display: inline-block;
+    margin-left: 5px;
+}
+.reg-btn{
+    padding: 5px 10px;
+    display: block;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    min-width: 194px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.lks-main, .container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.lks-main {
+    overflow: hidden;
+}
+.lks-left-content{
+    flex: 0 0 55%;
+    padding: 20px 0px;
+}
+.lks-right-content{
+    flex: 0 0 45%;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+.lks-footer{
+    background-color: white;
+
+}
+.lks-footer a{
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px
+}
+.footer-top-section{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}

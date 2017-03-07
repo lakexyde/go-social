@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e9ebee;
+    font-family: San Francisco, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+}
+/*Helpers*/
+*{
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/*End helpers*/
+.app {
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+.lks-header {
+    width: 100%;
+    display: block;
+    padding: 10px auto;
+    background-color: #29487d;
+    color: white;
+    overflow: hidden;
+    /*#4267b2;*/
+}
+.logo {
+    float: left;
+    display: inline-block;
+    font-size: 1em;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: white;
+    color: #29487d;
+}
+.lks-head-right{
+    display: inline-block;
+    float: right;
+}
+.lks-main {
+    display: flex;
+}
+.lks-main-wrapper{
+    flex: 0 0 50%;
+    padding: 0px 10px;
+}
+.lks-left-sidebar{
+    flex: 0 0 20%;
+    padding-top: 20px;
+}
+.lks-right-sidebar{
+    padding-top: 20px;
+    flex: 0 0 30%;
+}
+/*Status Styling*/
+.post {
+    margin: 20px 0px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: white
+}
+.post-meta {
+    width: 100%;
+    overflow: hidden;
+    padding: 7px 10px;;
+    font-size: 1em;
+}
+.post-meta .user{
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.post-meta .post-time{
+    float: right;
+}
+.post .post-content{
+    padding: 10px;
+}
+button {
+    color: blue;
+}
+
+/*sidebar styling*/
+.lks-r-widget{
+    padding: 10px;
+    background-color: white;
+    color: #141414;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.lks-l-list{
+
+}
+.lks-l-item{
+    padding: 5px;
+    cursor: pointer;
+}
+.lks-l-item:hover{
+    background-color: white;
+    border: 1px solid #ddd;
+}
